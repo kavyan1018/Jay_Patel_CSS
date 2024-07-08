@@ -1,0 +1,16 @@
+/* External CSS */
+
+/* call by id */
+#title-description{
+  
+  background-color: dimgrey;
+  color: aliceblue;
+}
+
+
+/* call by tag */
+
+a{
+    text-decoration: none;
+    color: slateblue;
+}
