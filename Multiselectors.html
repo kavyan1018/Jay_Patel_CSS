@@ -5,6 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    a{
+        text-decoration: none;
+    }
+    /* Multipl Selectors */
+
+    /* tag thow Multipl Selectors*/
+
+    /* p, a{
+        color: green;
+    } */
+
+    /* Class throw */
+
+    .site-title, .title-para{
+        color: red;
+    }
+
+    /* id throw */
+
+    /* ul a{
+        color: green;
+    }
+
+    li a{
+        color: green;
+    } */
+    
+    /* ul a, ol a{
+        color: green;
+    } */
+
+    /* ul > a{
+        color: green;
+    }
+
+    ol > a{
+        color: green;
+    } */
+
+    li:nth-child(4){
+        background-color: aqua;
+    }
+
+    li:nth-child(even){
+        background-color: gray;
+    }
+
+    li:nth-child(odd){
+        background-color: rgb(226, 226, 226);
+    }
+
+    ul + a{
+        background-color: blueviolet;
+    }
+
+    ol + a{
+        background-color: blueviolet;
+    }
+
+    a[target="_blank"]{
+        color: red;
+    }
+
+    /* li[value="201"]{
+        font-size: 22px;
+    }
+
+    li[value="400"]{
+        font-size: 22px;
+    } */
+
+    li[value="201"] , li[value="400"]{
+        font-size: 22px;
+    }
+
+</style>
 <body>
     <h1><a href="" class="site-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, reiciendis.</a></h1>
     <p class="title-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero tempora debitis officiis omnis voluptas. Delectus explicabo, veritatis aspernatur odio officiis, eum veniam obcaecati numquam reprehenderit ratione in doloremque iusto consequatur.</p>
@@ -12,6 +89,7 @@
     <a href="#">Link 1</a> |
     <a href="#">Link 2</a>
 
+  
     <ul>
         <li><a href="#" target="_blank">Lorem ipsum dolor sit amet.</a></li>
         <li><a href="#">Doloribus sequi eligendi neque ipsum!</a></li>
