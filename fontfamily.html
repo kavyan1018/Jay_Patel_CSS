@@ -4,57 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
 </head>
 <style>
-    a{
-        text-decoration: none;
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@import url('/Pirata_One/PirataOne-Regular.ttf');
+
+    #Google{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 600;
+        font-style: italic;
     }
 
-    .social-links{
-        font-size: 48px;
+    #Facebook{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 300px;
+        font-style: normal;
     }
 
-    /* peseudo class */
-
-    /* hover */
-    .social-links:hover{
-        color: green;
-        font-size: 50px;
+    #Twitter{
+        font-family: system-ui;
+        font-weight: 700;
+        font-style: normal;
     }
 
-    /* active */
-    .social-links:active{
-        color: gold;
-        background-color: black;
+    #Instagram{
+        font-family: "Dancing Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2rem;
     }
 
-    /* visited */
-    .social-links:visited{
-        color: gray;
+    #Youtube{
+        font-family: "Bodoni Moda SC", serif;
+        /* font-optical-sizing: auto; */
+        font-weight: 900;
+        font-style: normal;
+        font-size: 1.5rem;
     }
 
-    
+    #Linkedin{
+        font-family: "Pirata One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+
+    }
 </style>
 <body>
-    <!-- what is pseudo classes in css? -->
-    <!-- pseudo classes are used to define the special state of an element. -->
 
-    <!-- how many typs of pseudo classes in css? -->
-    <!-- There are four types of pseudo classes in css. -->
-     
-    <!-- 1. link pseudo classes -->
-    <!-- 2. active pseudo classes -->
-    <!-- 3. visited pseudo classes -->
-    <!-- 4. hover pseudo classes -->
+    <!-- What is font family in css? -->
+    <!-- font family is a property in css that is used to define the font of the text. -->
+
 
     <h1 class="site-titel">My Favorite social links</h1>
 
-    <div><a href="https://google.com" class="social-links">Google</a></div>
-    <div><a href="" class="social-links">Facebool</a></div>
-    <div><a href="" class="social-links">Twitter</a></div>
-    <div><a href="" class="social-links">Instagram</a></div>
-    <div><a href="" class="social-links">Youtube</a></div>
-    <div><a href="" class="social-links">Linkedin</a></div>
+    <div><a href="https://google.com" class="social-links" id="Google">Google</a></div>
+    <div><a href="" class="social-links" id="Facebook">Facebook</a></div>
+    <div><a href="" class="social-links" id="Twitter">Twitter</a></div>
+    <div><a href="" class="social-links" id="Instagram">Instagram</a></div>
+    <div><a href="" class="social-links" id="Youtube">Youtube</a></div>
+    <div><a href="" class="social-links" id="Linkedin">Linkedin</a></div>
 
     <!-- shortcut: ((h2.subtitle#st$>lorem11)+(p.site-text#para$>lorem40))*5 -->
 
@@ -73,6 +86,5 @@
     <h2 class="subtitle" id="st5">Quis labore impedit consectetur incidunt, voluptatibus esse commodi minima sunt fugiat!</h2>
     <p class="site-text" id="para5">Aliquam iusto, quo recusandae reprehenderit voluptas illo magnam ipsum soluta mollitia aut porro officia blanditiis dolor, optio quisquam amet quam veniam, ducimus quis in nam rerum ipsa itaque. Quis ex nostrum dolore delectus a expedita eum necessitatibus, vel sint vero.</p>
 
-
 </body>
-</html> 
+</html>
